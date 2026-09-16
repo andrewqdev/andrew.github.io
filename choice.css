@@ -1,34 +1,39 @@
 body {
-    background-color:rgb(0, 0, 61);
+    background-color:rgb(0, 0, 0);
 
 }
-h1{
-    margin-left: 565px;
+h1 {
+    margin-left: 530px;
     margin-top: 60px;
-    color:rgb(212, 212, 0);
+    color:rgb(212, 0, 0);
     font-family: "Pixelify Sans", sans-serif;
     font-optical-sizing: auto;
-    text-shadow: -3px 18px 10px rgba(0, 0, 0, 1),
-    -1px 4px 0px rgba(0, 0, 0, 0.3);
+    text-shadow: -3px 2px 4px rgb(255, 0, 0),
+    1px 2px 0px rgba(158, 0, 0, 0.3);
     font-style: oblique;
-    font-size: 40px;
+    font-size: 50px;
     font-style: normal;
     
 }
 
+th {
+    border: none;
+    font-size: 18px;
+}
+
 table {
-    color:white;
-    border: 1px solid white;
+    color:rgb(255, 0, 0);
+    border: 4px solid rgb(255, 0, 0);
     width: 350px;
     height: 350px;
     margin-top: 50px;
-    border-radius: 10px;
+    border-radius: 50px;
 }
 
 .name {
     font-family: "Pixelify Sans", sans-serif;
     font-optical-sizing: auto;
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 30px;
     text-align: center;
 }
@@ -36,53 +41,57 @@ table {
 .atributos {
     font-size: x-large;
     color:white;
+    border: none;
 }
 
-#silver {
+#dustin {
     position: absolute; left: 50px;
     position: absolute; top: 82px;
     font-family: "Pixelify Sans", sans-serif;
     font-optical-sizing: auto;
+    font-style: oblique;
     text-align: center;
-    color:rgb(212, 212, 0);
+    color: white;
 }
 
-.imgsilver {
+.imgdustin {
     width: 350px;
     height: 350px;
-    border-radius: 10px;
-    border: 3px solid white;
+    border-radius: 50px;
+    border: 5px solid rgb(255, 0, 0);
 }
 
-#superman {
+#eddie {
     position: absolute; left: 570px;
     position: absolute; top: 82px;
     font-family: "Pixelify Sans", sans-serif;
     font-optical-sizing: auto;
+    font-style: oblique;
     text-align: center;
-    color:rgb(212, 212, 0);
+    color: white;
 }
-.imgsuperman {
+.imgeddie {
     width: 350px;
     height: 350px;
-    border-radius: 10px;
-    border: 3px solid white;
+    border-radius: 50px;
+    border: 5px solid rgb(255, 0, 0);
 }
 
-#chapolim {
+#gorgon {
     position: absolute; left: 1080px;
     position: absolute; top: 82px;
     font-family: "Pixelify Sans", sans-serif;
     font-optical-sizing: auto;
     text-align: center;
-    color:rgb(212, 212, 0);
+    font-style: oblique;
+    color: white;
 }
 
-.imgchapolim {
+.imggorgon {
     width: 350px;
     height: 350px;
-    border-radius: 10px;
-    border: 3px solid white
+    border-radius: 50px;
+    border: 5px solid rgb(255, 0, 0)
 }
 
 .xp {
@@ -93,13 +102,76 @@ table {
     width: 400px;
     height: 14px;
     background-color: #0b2222;
-    border: 2px solid black;
+    border: 2px solid rgb(255, 255, 255);
     border-radius: 10px;
 }
 
 .barra-dentro {
-    width: 0%;
-    height: 0%;
+    width: 1%;
+    height: 100%;
     background-color: yellow;
     border-radius: 10px;
+}
+
+
+                                                            /* CSS DA ESCOLHA DO MUNDO */
+
+
+
+.world {
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-align: center;
+}
+
+#tblchoiceworld {
+    position: absolute; left: 20px;
+    position: absolute; top: 82px;
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    text-align: center;
+    font-style: oblique;
+    border-color:  rgb(65, 163, 249);
+    border-radius: 30px;
+    color: white;
+}
+
+
+.imgnormalworld {
+    width: 700px;
+    height: 380px;
+    border-radius: 50px;
+    border: 5px solid rgb(65, 163, 249);
+}
+
+
+#inverseworld{
+    position: absolute; left: 800px;
+    margin-right: 20px;
+    position: absolute; top: 82px;
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    text-align: center;
+    font-style: oblique;
+    border-radius: 30px;
+    color: white;
+}
+
+.imginverseworld {
+    width: 700px;
+    height: 380px;
+    border-radius: 50px;
+    border: 5px solid  rgb(255, 0, 0);
+}
+
+.description {
+    font-size: x-large;
+    color:white;
+    border: none;
+}
+
+#inversename {
+    color:rgb(69, 0, 30);
 }
